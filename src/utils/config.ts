@@ -1,19 +1,19 @@
 import type { TemplateConfig } from "./configType";
 
 const templateConfig: TemplateConfig = {
-  name: "Lorem Ipsum",
+  name: "Spicy Pills",
   seo: {
-    title: "Mobile App Landing Template",
-    description: "Mobile App Landing Template",
+    title: "Spicy Pills - Tools for Neurodiverse Individuals",
+    description: "Unlock Simplicity, Embrace Productivity, Tools for Neurodiverse Individuals",
   },
   // Draws grid behind main container
   backgroundGrid: false,
   logo: "/logo.svg",
-  theme: "corporate",
+  theme: "forest",
   // Forces theme to be chosen above, no matter what user prefers
-  forceTheme: false,
+  forceTheme: true,
   // Shows switch to toggle between dark and light modes
-  showThemeSwitch: true,
+  showThemeSwitch: false,
   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
   googlePlayLink:
     "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
@@ -25,8 +25,8 @@ const templateConfig: TemplateConfig = {
     },
     socials: {
       instagram: "https://instagram.com/google",
-      facebook: "https://facebook.com/google",
-      twitter: "https://x.com/google",
+      // facebook: "https://facebook.com/google",
+      // twitter: "https://x.com/google",
     },
     links: [
       { href: "/#features", title: "Features" },
@@ -37,7 +37,7 @@ const templateConfig: TemplateConfig = {
   },
   topNavbar: {
     cta: "Get the app",
-    disableWidthAnimation: false,
+    disableWidthAnimation: true,
     hideAppStore: false,
     hideGooglePlay: false,
     links: [
@@ -51,7 +51,7 @@ const templateConfig: TemplateConfig = {
     id: "app-banner",
     title: "Download Our Mobile App Today!",
     subtitle:
-      "Unlock the full potential of our services with seamless access at your fingertips. Stay connected, informed, and in control wherever you are.",
+      "Unlock Simplicity, Embrace Productivity, Tools for Neurodiverse Individuals.",
     screenshots: [
       "/screenshots/1.webp",
       "/screenshots/2.webp",
