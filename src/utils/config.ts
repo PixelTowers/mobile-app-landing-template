@@ -30,8 +30,8 @@ const templateConfig: TemplateConfig = {
     },
     links: [
       { href: "/#features", title: "Features" },
-      { href: "/#how-it-works", title: "How it works" },
-      { href: "/#pricing", title: "Pricing" },
+      // { href: "/#how-it-works", title: "How it works" },
+      // { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
   },
@@ -42,14 +42,14 @@ const templateConfig: TemplateConfig = {
     hideGooglePlay: false,
     links: [
       { href: "/#features", title: "Features" },
-      { href: "/#how-it-works", title: "How it works" },
-      { href: "/#pricing", title: "Pricing" },
+      // { href: "/#how-it-works", title: "How it works" },
+      // { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
   },
   appBanner: {
     id: "app-banner",
-    title: "Download Our Mobile App Today!",
+    title: "Download Spicy Pills App Today!",
     subtitle:
       "Unlock Simplicity, Embrace Productivity, Tools for Neurodiverse Individuals.",
     screenshots: [
@@ -60,88 +60,88 @@ const templateConfig: TemplateConfig = {
   },
   home: {
     seo: {
-      title: "Mobile App Landing Template",
-      description: "Mobile App Landing Template",
+      title: "Spicy Pills - Tools for Neurodiverse Individuals",
+      description: "Unlock Simplicity, Embrace Productivity, Tools for Neurodiverse Individuals",
     },
-    testimonials: {
-      id: "testimonials",
-      title: "Testimonials",
-      subtitle: "Check out a few of our customer stories",
-      cards: [
-        {
-          name: "Alice Johnson",
-          comment:
-            "The service was fantastic! Highly recommended. The team was very professional and attentive to our needs. They went above and beyond to ensure we were satisfied with the results. I will definitely be using their services again in the future.",
-        },
-        {
-          name: "Bob Smith",
-          comment:
-            "Great value for the price. Very satisfied with the overall experience. The product quality is top-notch and the customer service is excellent. I appreciate the prompt responses to my inquiries and the helpful advice provided. Highly recommend.",
-        },
-        {
-          name: "Charlie Brown",
-          comment:
-            "An excellent experience from start to finish. The onboarding process was smooth and the support team was very responsive. I felt valued as a customer and the results exceeded my expectations. I am impressed with the level of detail and care put into their work.",
-        },
-        {
-          name: "Dana White",
-          comment:
-            "Superb customer service and high-quality products. The team demonstrated great expertise and patience throughout the project. They addressed all my concerns and provided valuable insights. The end product was delivered on time and surpassed my expectations.",
-        },
-        {
-          name: "Eve Adams",
-          comment:
-            "I couldn't be happier with the results! The attention to detail and the level of customization provided was outstanding. The team was friendly and professional, making the entire process enjoyable. I highly recommend their services to anyone looking for top-quality work.",
-        },
-      ],
-    },
+    // testimonials: {
+    //   id: "testimonials",
+    //   title: "Testimonials",
+    //   subtitle: "Check out a few of our customer stories",
+    //   cards: [
+    //     {
+    //       name: "Alice Johnson",
+    //       comment:
+    //         "The service was fantastic! Highly recommended. The team was very professional and attentive to our needs. They went above and beyond to ensure we were satisfied with the results. I will definitely be using their services again in the future.",
+    //     },
+    //     {
+    //       name: "Bob Smith",
+    //       comment:
+    //         "Great value for the price. Very satisfied with the overall experience. The product quality is top-notch and the customer service is excellent. I appreciate the prompt responses to my inquiries and the helpful advice provided. Highly recommend.",
+    //     },
+    //     {
+    //       name: "Charlie Brown",
+    //       comment:
+    //         "An excellent experience from start to finish. The onboarding process was smooth and the support team was very responsive. I felt valued as a customer and the results exceeded my expectations. I am impressed with the level of detail and care put into their work.",
+    //     },
+    //     {
+    //       name: "Dana White",
+    //       comment:
+    //         "Superb customer service and high-quality products. The team demonstrated great expertise and patience throughout the project. They addressed all my concerns and provided valuable insights. The end product was delivered on time and surpassed my expectations.",
+    //     },
+    //     {
+    //       name: "Eve Adams",
+    //       comment:
+    //         "I couldn't be happier with the results! The attention to detail and the level of customization provided was outstanding. The team was friendly and professional, making the entire process enjoyable. I highly recommend their services to anyone looking for top-quality work.",
+    //     },
+    //   ],
+    // },
     partners: {
       title: "As seen on",
       logos: [
-        "/misc/companies/apple.svg",
-        "/misc/companies/aws.svg",
-        "/misc/companies/google.svg",
-        "/misc/companies/tumblr.svg",
+        // "/misc/companies/apple.svg",
+        // "/misc/companies/aws.svg",
+        // "/misc/companies/google.svg",
+        // "/misc/companies/tumblr.svg",
       ],
     },
-    howItWorks: {
-      id: "how-it-works",
-      title: "How it works",
-      subtitle:
-        "Explore our comprehensive step-by-step guide to understand how our process ensures seamless and effective results",
-      steps: [
-        {
-          title: "Install the App",
-          subtitle:
-            "Download and install the app on your device to get started quickly and easily.",
-          image: "/stock/01.webp",
-        },
-        {
-          title: "Create an Account",
-          subtitle:
-            "Sign up by entering your personal details and verifying your email to create a new account in just a few minutes.",
-          image: "/stock/02.webp",
-        },
-        {
-          title: "Set Up Your Profile",
-          subtitle:
-            "Complete your profile by adding necessary information and preferences to personalize your experience on the platform.",
-          image: "/stock/03.webp",
-        },
-        {
-          title: "Explore Features",
-          subtitle:
-            "Navigate through the app to discover various features and tools designed to enhance your productivity and engagement.",
-          image: "/stock/04.webp",
-        },
-        {
-          title: "Connect with Others",
-          subtitle:
-            "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
-          image: "/stock/05.webp",
-        },
-      ],
-    },
+    // howItWorks: {
+    //   id: "how-it-works",
+    //   title: "How it works",
+    //   subtitle:
+    //     "Explore our comprehensive step-by-step guide to understand how our process ensures seamless and effective results",
+    //   steps: [
+    //     {
+    //       title: "Install the App",
+    //       subtitle:
+    //         "Download and install the app on your device to get started quickly and easily.",
+    //       image: "/stock/01.webp",
+    //     },
+    //     {
+    //       title: "Create an Account",
+    //       subtitle:
+    //         "Sign up by entering your personal details and verifying your email to create a new account in just a few minutes.",
+    //       image: "/stock/02.webp",
+    //     },
+    //     {
+    //       title: "Set Up Your Profile",
+    //       subtitle:
+    //         "Complete your profile by adding necessary information and preferences to personalize your experience on the platform.",
+    //       image: "/stock/03.webp",
+    //     },
+    //     {
+    //       title: "Explore Features",
+    //       subtitle:
+    //         "Navigate through the app to discover various features and tools designed to enhance your productivity and engagement.",
+    //       image: "/stock/04.webp",
+    //     },
+    //     {
+    //       title: "Connect with Others",
+    //       subtitle:
+    //         "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
+    //       image: "/stock/05.webp",
+    //     },
+    //   ],
+    // },
     features: {
       id: "features",
       title: "Transform Your Daily Routine",
@@ -149,29 +149,30 @@ const templateConfig: TemplateConfig = {
         "Elevate your lifestyle with our innovative mobile app, designed for seamless living",
       cards: [
         {
-          title: "Seamless Integration",
-          subtitle:
-            "Connect effortlessly with all your devices, ensuring smooth and efficient workflows across different platforms and applications without any disruptions",
-          icon: "/3D/link-front-color.webp",
+          title: "Task Breakdown Assistant",
+          subtitle: "Transform complex tasks into manageable steps with our AI-powered task breaker. Intelligently analyzes and breaks down your projects into clear, actionable items for better organization",
+          icon: "/3D/list-front-color.webp"
         },
         {
-          title: "24/7 Customer Support",
-          subtitle:
-            "Get assistance whenever you need it with our dedicated customer support team, available around the clock to help resolve any issues you may encounter",
-          icon: "/3D/clock-front-color.webp",
+          title: "Time Estimation Expert",
+          subtitle: "Get accurate time estimates for your tasks using advanced AI analysis. Helps you plan better and manage project timelines with precision based on task complexity and requirements",
+          icon: "/3D/clock-front-color.webp"
         },
         {
-          title: "Intuitive Design",
-          subtitle:
-            "Navigate through our intuitive and easy-to-use interface designed to enhance user experience, making it accessible for users of all skill levels",
-          icon: "/3D/roll-brush-front-color.webp",
+          title: "Tone Analysis Tool",
+          subtitle: "Perfect your communication with our AI tone judge. Analyzes your text to ensure the right emotional impact and professional tone for your intended audience",
+          icon: "/3D/chat-front-color.webp"
         },
         {
-          title: "Top-Notch Security",
-          subtitle:
-            "Protect your data with our top-notch security protocols, offering robust encryption and real-time monitoring to keep your information safe and secure",
-          icon: "/3D/sheild-front-color.webp",
+          title: "Text Formalizer",
+          subtitle: "Instantly transform casual text into professional, polished content. Our AI helps maintain consistent formality levels while preserving your message's core meaning",
+          icon: "/3D/document-front-color.webp"
         },
+        {
+          title: "Time Management Suite",
+          subtitle: "Stay focused with integrated timer and stopwatch tools. Perfect for time-boxing tasks or tracking work sessions, complete with customizable durations and audio notifications",
+          icon: "/3D/timer-front-color.webp"
+        }
       ],
     },
     faq: {
@@ -179,144 +180,140 @@ const templateConfig: TemplateConfig = {
       title: "Frequently Asked Questions",
       qa: [
         {
-          question: "How can I create an account on your website?",
+          question: "Is it Free?",
           answer:
-            "To create an account, click on the 'Sign Up' button located at the top right corner of our homepage. Fill in the required information, including your name, email address, and password. Once you submit the form, you will receive a confirmation email. Click the link in the email to verify your account, and you're all set!",
+            "Yes, it's free to download and use the app. You have a free amount of credits to use the app, and you can purchase more credits if you need them.",
         },
         {
-          question: "What payment methods do you accept?",
+          question: "How does it work?",
           answer:
-            "We accept a variety of payment methods to ensure convenience for our customers. These include major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay. For more details, visit our Payments page.",
+            "SpicyPills works by utilizing advanced AI technology to simplify complex tasks into manageable steps and can automate certain tasks for a seamless task management experience.",
         },
         {
-          question: "How can I track my order?",
+          question: "What are the benefits?",
           answer:
-            "Once your order is shipped, you will receive an email with a tracking number. You can use this tracking number on our website under the 'Track Order' section to see the current status and estimated delivery date of your package.",
+            "SpicyPills can help you save time, reduce stress, and increase productivity by automating tasks and providing personalized recommendations.",
         },
         {
-          question: "What is your return policy?",
+          question: "How do you protect my data?",
           answer:
-            "We offer a 30-day return policy for unused and unopened items. If you are not satisfied with your purchase, please contact our customer support team to initiate a return. Refunds will be processed within 7-10 business days after we receive the returned item.",
-        },
-        {
-          question: "How can I contact customer support?",
-          answer:
-            "You can contact our customer support team through the 'Contact Us' page on our website. We are available via email, phone, and live chat. Our support hours are Monday to Friday, 9 AM to 5 PM.",
+            "We use industry-standard security measures to protect your data, including encryption and secure servers. We also have privacy policies in place to ensure your data is protected with all of our partners.",
         },
       ],
     },
     header: {
-      headline: "Your Ultimate App for Every Need",
+      headline: "Tools for Neurodiverse Individuals",
       subtitle:
-        "Streamline your tasks, boost your productivity, and accomplish more every day. Unlock a world of possibilities with our cutting-edge mobile application.",
+        "Unlock Simplicity, Embrace Productivity",
       screenshots: [
         "/screenshots/1.webp",
         "/screenshots/2.webp",
         "/screenshots/3.webp",
       ],
-      rewards: ["App of the year \n 1st", "Product of the day"],
-      usersDescription: "100+ people already using the app",
+      // rewards: ["App of the year \n 1st", "Product of the day"],
+      // usersDescription: "100+ people already using the app",
       headlineMark: [1, 3],
     },
-    pricing: {
-      id: "pricing",
-      title: "Pricing",
-      subtitle: "Flexible costs to meet your budget",
-      actionText: "Download the app",
-      plans: [
-        {
-          title: "Basic Plan",
-          price: "$9.99/month",
-          rows: ["Access to basic features", "Email support", "1 GB storage"],
-        },
-        {
-          title: "Standard Plan",
-          price: "$19.99/month",
-          featured: true,
-          rows: [
-            "Access to all basic features",
-            "Priority email support",
-            "10 GB storage",
-            "Monthly webinars",
-          ],
-        },
-        {
-          title: "Premium Plan",
-          price: "$29.99/month",
-          rows: [
-            "Access to all features",
-            "24/7 support",
-            "100 GB storage",
-            "Weekly webinars",
-            "Exclusive content",
-          ],
-        },
-      ],
-    },
+    // pricing: {
+    //   id: "pricing",
+    //   title: "Pricing",
+    //   subtitle: "Flexible costs to meet your budget",
+    //   actionText: "Download the app",
+    //   plans: [
+    //     {
+    //       title: "Basic Plan",
+    //       price: "$9.99/month",
+    //       rows: ["Access to basic features", "Email support", "1 GB storage"],
+    //     },
+    //     {
+    //       title: "Standard Plan",
+    //       price: "$19.99/month",
+    //       featured: true,
+    //       rows: [
+    //         "Access to all basic features",
+    //         "Priority email support",
+    //         "10 GB storage",
+    //         "Monthly webinars",
+    //       ],
+    //     },
+    //     {
+    //       title: "Premium Plan",
+    //       price: "$29.99/month",
+    //       rows: [
+    //         "Access to all features",
+    //         "24/7 support",
+    //         "100 GB storage",
+    //         "Weekly webinars",
+    //         "Exclusive content",
+    //       ],
+    //     },
+    //   ],
+    // },
   },
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy - Mobile App Landing Template",
+      title: "Privacy Policy - Spicy Pills",
       description: "Privacy Policy",
     },
     content: `# Privacy Policy
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 19/11/2024
 
-## Introduction
+Welcome to SpicyPills, a mobile application developed by PixelTowers. We are committed to protecting your privacy and ensuring that your personal data is handled in a safe and responsible manner. This Privacy Policy outlines how we collect, use, disclose, and protect your information in compliance with the General Data Protection Regulation (GDPR).
 
-Welcome to [Your App Name] (the "App"). [Your Company Name] ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share your personal information when you use our App.
+1.  **Information We Collect**
+- **Email Address:** We collect your email address when you create an account to use SpicyPills.
+- **Optional Personal Data:** While we currently do not collect additional personal information, such as your name, this may change in the future, and you will be informed accordingly.
 
-## Information We Collect
+1. **How We Use Your Information**
+- **To Provide Services:** Your email address is used to create and manage your account and to communicate with you about the app.
+- **AI Processing:** Task-related data is processed locally on your device during AI interactions to provide task breakdowns and estimates. This data is not collected or stored by us.
 
-### 1. Information You Provide
-- **Account Information:** When you sign up for our App, we may collect your name, email address, and other contact information.
-- **User Content:** We may collect any content you upload, post, or otherwise transmit through the App, including messages, photos, and other media.
+1. **Legal Basis for Processing**
 
-### 2. Information We Collect Automatically
-- **Usage Data:** We collect information about your interactions with the App, such as the features you use and the time spent on the App.
-- **Device Information:** We collect information about the device you use to access the App, including IP address, device type, and operating system.
+We process your personal data under the following legal bases:
 
-### 3. Information from Third Parties
-- **Third-Party Services:** If you connect to the App through a third-party service (e.g., social media), we may collect information from that service as permitted by their privacy policies.
+- **Consent:** By using SpicyPills, you consent to the collection and processing of your email address as outlined in this policy.
+- **Contractual Necessity:** Processing is necessary for the performance of the contract between you and PixelTowers.
 
-## How We Use Your Information
+1. **Data Sharing and Disclosure**
+- **Service Providers:** We may share your email address with third-party service providers who assist us in operating our app and providing services to you.
+- **Legal Requirements:** We may disclose your information if required by law or in response to legal requests.
 
-We may use the information we collect for the following purposes:
-- **To Provide and Maintain Our Service:** We use your information to operate and improve the App.
-- **To Communicate with You:** We may use your contact information to send you updates, notifications, and other communications related to the App.
-- **To Personalize Your Experience:** We may use your information to personalize your experience with the App and to offer you content tailored to your interests.
-- **For Analytics and Research:** We use the information to analyze how our users interact with the App and to improve our services.
+1. **Data Retention**
 
-## Sharing Your Information
+We will retain your email address only for as long as necessary to fulfil the purposes outlined in this policy. When your data is no longer needed, we will securely delete it.
 
-We do not share your personal information with third parties except in the following circumstances:
-- **With Your Consent:** We may share your information with third parties if you give us explicit consent to do so.
-- **Service Providers:** We may share your information with third-party service providers who perform services on our behalf.
-- **Legal Requirements:** We may disclose your information if required by law, or if we believe that such action is necessary to comply with legal obligations, protect our rights, or prevent fraud.
+1. **Your Rights**
 
-## Your Rights and Choices
+Under GDPR, you have the right to:
 
-- **Access and Correction:** You have the right to access and correct the personal information we hold about you.
-- **Data Deletion:** You may request that we delete your personal information by contacting us at [Your Contact Information].
-- **Opt-Out:** You may opt out of receiving promotional communications from us by following the instructions in those communications.
+- Access your personal data and request a copy.
+- Rectify any inaccurate or incomplete data.
+- Request the erasure of your data under certain conditions.
+- Object to the processing of your data.
+- Request the restriction of processing.
+- Data portability.
 
-## Security
+To exercise these rights, please contact us at spicypills@pixeltowers.io
 
-We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, no security system is completely secure, and we cannot guarantee the absolute security of your information.
+1. **Data Security**
 
-## Changes to This Privacy Policy
+We implement appropriate technical and organisational measures to protect your personal data against unauthorised access, loss, or destruction.
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" above. Your continued use of the App after such changes signifies your acceptance of the revised Privacy Policy.
+1. **Changes to This Privacy Policy**
 
-## Contact Us
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on our app and updating the effective date.
 
-If you have any questions or concerns about this Privacy Policy, please contact us at:
+1. **Contact Us**
 
-[Your Company Name]  
-[Your Contact Information]  
-[Email Address]  
-[Phone Number (optional)]
+If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
+
+PixelTowers
+
+Email: spicypills@pixeltowers.io
+
+Thank you for using SpicyPills. Your privacy is important to us, and we are committed to protecting your personal data.
 
 `,
   },
