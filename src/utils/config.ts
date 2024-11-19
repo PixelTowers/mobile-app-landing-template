@@ -12,6 +12,8 @@ const templateConfig: TemplateConfig = {
   theme: "forest",
   // Forces theme to be chosen above, no matter what user prefers
   forceTheme: true,
+  waitList: true,
+  waitListSignupLink: "https://forms.gle/3d98765654321654321654321654321654321654",
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: false,
   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
@@ -50,6 +52,7 @@ const templateConfig: TemplateConfig = {
   appBanner: {
     id: "app-banner",
     title: "Download Spicy Pills App Today!",
+    waitingListTitle: "Spicy Pills",
     subtitle:
       "Unlock Simplicity, Embrace Productivity, Tools for Neurodiverse Individuals.",
     screenshots: [
