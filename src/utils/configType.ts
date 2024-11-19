@@ -8,6 +8,8 @@ export type TemplateConfig = {
     theme: string;
     backgroundGrid: boolean;
     forceTheme: boolean;
+    waitList: boolean;
+    waitListSignupLink?: string | undefined;
     showThemeSwitch: boolean;
     googlePlayLink?: string | undefined;
     appStoreLink?: string | undefined;
@@ -61,6 +63,7 @@ export type TemplateConfig = {
     appBanner?: {
         id?: string | undefined;
         title: string;
+        waitingListTitle: string;
         subtitle: string;
         screenshots: string[];
     } | undefined;

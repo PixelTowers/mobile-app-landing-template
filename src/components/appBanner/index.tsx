@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import clsx from "clsx";
 
 function AppBanner() {
-  const { googlePlayLink, appStoreLink, appBanner } =
+  const { googlePlayLink, appStoreLink, appBanner, waitListSignupLink, waitList } =
     useContext(ConfigContext)!;
 
   if (!appBanner) return null;
@@ -36,14 +36,14 @@ function AppBanner() {
         }}
       >
         <div className="p-4 bg-primary text-primary-content rounded-t-[var(--rounded-box)] flex flex-col items-center md:flex-row">
-          <div className="flex-1 flex flex-col items-center justify-center min-h-full">
+          <div className="flex-1 flex flex-col items-left justify-left min-h-full">
             <motion.h2
               initial={{ opacity: 0, y: "-100%" }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
               className="mt-0 mb-4 text-4xl md:text-6xl"
             >
-              {appBanner.title}
+              {waitList ? appBanner.waitingListTitle : appBanner.title}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: "100%" }}
@@ -59,27 +59,41 @@ function AppBanner() {
               transition={{ delay: 0.8 }}
               className="list-none flex gap-4 my-6 p-0 w-full"
             >
-              {googlePlayLink && (
-                <li className="m-0 p-0">
-                  <a href={googlePlayLink}>
-                    <img
-                      className="h-14"
-                      alt="google play logo"
-                      src="/stores/google-play.svg"
-                    />
+              {waitList ? (
+                <li className="m-0 p-0 mt-5">
+                  <a 
+                    href={waitListSignupLink} 
+                    className="btn bg-black hover:bg-black/80 text-white px-8 text-lg gap-2 h-14 border-none"
+                  >
+                    🚀
+                    Join the waiting list!
                   </a>
                 </li>
-              )}
-              {appStoreLink && (
-                <li className="m-0 p-0">
-                  <a href={appStoreLink}>
-                    <img
-                      className="h-14"
-                      alt="app store logo"
-                      src="/stores/app-store.svg"
-                    />
-                  </a>
-                </li>
+              ) : (
+                <>
+                  {googlePlayLink && (
+                    <li className="m-0 p-0">
+                      <a href={googlePlayLink}>
+                        <img
+                          className="h-14"
+                          alt="google play logo"
+                          src="/stores/google-play.svg"
+                        />
+                      </a>
+                    </li>
+                  )}
+                  {appStoreLink && (
+                    <li className="m-0 p-0">
+                      <a href={appStoreLink}>
+                        <img
+                          className="h-14"
+                          alt="app store logo"
+                          src="/stores/app-store.svg"
+                        />
+                      </a>
+                    </li>
+                  )}
+                </>
               )}
             </motion.ul>
           </div>

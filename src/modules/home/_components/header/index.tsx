@@ -9,6 +9,8 @@ function Header() {
   const {
     googlePlayLink,
     appStoreLink,
+    waitList,
+    waitListSignupLink,
     home: { header, partners },
   } = useContext(ConfigContext)!;
 
@@ -89,27 +91,41 @@ function Header() {
                 transition={{ delay: 0.6 }}
                 className="list-none flex gap-4 m-0 p-0"
               >
-                {googlePlayLink && (
-                  <li className="m-0 p-0">
-                    <a href={googlePlayLink}>
-                      <img
-                        className="h-14"
-                        alt="google play logo"
-                        src="/stores/google-play.svg"
-                      />
+                {waitList ? (
+                  <li className="m-0 p-0 mt-5">
+                    <a 
+                      href={waitListSignupLink} 
+                      className="btn btn-primary text-white px-8 text-lg gap-2 h-14"
+                    >
+                      🚀
+                      Join the waiting list!
                     </a>
                   </li>
-                )}
-                {appStoreLink && (
-                  <li className="m-0 p-0">
-                    <a href={appStoreLink}>
-                      <img
-                        className="h-14"
-                        alt="app store logo"
-                        src="/stores/app-store.svg"
-                      />
-                    </a>
-                  </li>
+                ) : (
+                  <>
+                    {googlePlayLink && (
+                      <li className="m-0 p-0">
+                        <a href={googlePlayLink}>
+                          <img
+                            className="h-14"
+                            alt="google play logo"
+                            src="/stores/google-play.svg"
+                          />
+                        </a>
+                      </li>
+                    )}
+                    {appStoreLink && (
+                      <li className="m-0 p-0">
+                        <a href={appStoreLink}>
+                          <img
+                            className="h-14"
+                            alt="app store logo"
+                            src="/stores/app-store.svg"
+                          />
+                        </a>
+                      </li>
+                    )}
+                  </>
                 )}
               </motion.ul>
               {header.usersDescription && (
