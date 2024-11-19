@@ -1,6 +1,6 @@
-# Spicy Pills Landing Site
+# Modern Landing Site Template
 
-This is the SpicyPills landing Site, built with Astro, React, TypeScript, TailwindCSS, and DaisyUI. It offers seamless theme support using all the available themes from DaisyUI and can be easily tailored to fit your needs.
+This is a modern landing site template, built with Astro, React, TypeScript, TailwindCSS, and DaisyUI. It offers seamless theme support using all the available themes from DaisyUI and can be easily tailored to fit your needs.
 
 ## Features
 - Built with Astro & React: Combines the power of Astro for static rendering with the flexibility of React for interactive components.

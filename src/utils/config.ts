@@ -1,10 +1,10 @@
 import type { TemplateConfig } from "./configType";
 
 const templateConfig: TemplateConfig = {
-  name: "Spicy Pills",
+  name: "App Name",
   seo: {
-    title: "Spicy Pills - Tools for Neurodiverse Individuals",
-    description: "Unlock Simplicity, Embrace Productivity, Tools for Neurodiverse Individuals",
+    title: "Your App - Your Tagline",
+    description: "Brief description of your app and its main value proposition",
   },
   // Draws grid behind main container
   backgroundGrid: false,
@@ -32,8 +32,8 @@ const templateConfig: TemplateConfig = {
     },
     links: [
       { href: "/#features", title: "Features" },
-      // { href: "/#how-it-works", title: "How it works" },
-      // { href: "/#pricing", title: "Pricing" },
+      { href: "/#how-it-works", title: "How it works" },
+      { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
   },
@@ -44,17 +44,16 @@ const templateConfig: TemplateConfig = {
     hideGooglePlay: false,
     links: [
       { href: "/#features", title: "Features" },
-      // { href: "/#how-it-works", title: "How it works" },
-      // { href: "/#pricing", title: "Pricing" },
+      { href: "/#how-it-works", title: "How it works" },
+      { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
   },
   appBanner: {
     id: "app-banner",
-    title: "Download Spicy Pills App Today!",
-    waitingListTitle: "Spicy Pills",
-    subtitle:
-      "Unlock Simplicity, Embrace Productivity, Tools for Neurodiverse Individuals.",
+    title: "Download Our App Today!",
+    waitingListTitle: "App Name",
+    subtitle: "Your main value proposition and brief description",
     screenshots: [
       "/screenshots/1.webp",
       "/screenshots/2.webp",
@@ -63,41 +62,40 @@ const templateConfig: TemplateConfig = {
   },
   home: {
     seo: {
-      title: "Spicy Pills - Tools for Neurodiverse Individuals",
-      description: "Unlock Simplicity, Embrace Productivity, Tools for Neurodiverse Individuals",
+      title: "Your App - Your Tagline",
+      description: "Brief description of your app and its main value proposition",
     },
-    // testimonials: {
-    //   id: "testimonials",
-    //   title: "Testimonials",
-    //   subtitle: "Check out a few of our customer stories",
-    //   cards: [
-    //     {
-    //       name: "Alice Johnson",
-    //       comment:
-    //         "The service was fantastic! Highly recommended. The team was very professional and attentive to our needs. They went above and beyond to ensure we were satisfied with the results. I will definitely be using their services again in the future.",
-    //     },
-    //     {
-    //       name: "Bob Smith",
-    //       comment:
-    //         "Great value for the price. Very satisfied with the overall experience. The product quality is top-notch and the customer service is excellent. I appreciate the prompt responses to my inquiries and the helpful advice provided. Highly recommend.",
-    //     },
-    //     {
-    //       name: "Charlie Brown",
-    //       comment:
-    //         "An excellent experience from start to finish. The onboarding process was smooth and the support team was very responsive. I felt valued as a customer and the results exceeded my expectations. I am impressed with the level of detail and care put into their work.",
-    //     },
-    //     {
-    //       name: "Dana White",
-    //       comment:
-    //         "Superb customer service and high-quality products. The team demonstrated great expertise and patience throughout the project. They addressed all my concerns and provided valuable insights. The end product was delivered on time and surpassed my expectations.",
-    //     },
-    //     {
-    //       name: "Eve Adams",
-    //       comment:
-    //         "I couldn't be happier with the results! The attention to detail and the level of customization provided was outstanding. The team was friendly and professional, making the entire process enjoyable. I highly recommend their services to anyone looking for top-quality work.",
-    //     },
-    //   ],
-    // },
+    testimonials: {
+      id: "testimonials",
+      title: "Testimonials",
+      subtitle: "Check out a few of our customer stories",
+      cards: [
+        {
+          name: "Customer Name",
+          comment: "Positive testimonial about your product or service...",
+        },
+        {
+          name: "Bob Smith",
+          comment:
+            "Great value for the price. Very satisfied with the overall experience. The product quality is top-notch and the customer service is excellent. I appreciate the prompt responses to my inquiries and the helpful advice provided. Highly recommend.",
+        },
+        {
+          name: "Charlie Brown",
+          comment:
+            "An excellent experience from start to finish. The onboarding process was smooth and the support team was very responsive. I felt valued as a customer and the results exceeded my expectations. I am impressed with the level of detail and care put into their work.",
+        },
+        {
+          name: "Dana White",
+          comment:
+            "Superb customer service and high-quality products. The team demonstrated great expertise and patience throughout the project. They addressed all my concerns and provided valuable insights. The end product was delivered on time and surpassed my expectations.",
+        },
+        {
+          name: "Eve Adams",
+          comment:
+            "I couldn't be happier with the results! The attention to detail and the level of customization provided was outstanding. The team was friendly and professional, making the entire process enjoyable. I highly recommend their services to anyone looking for top-quality work.",
+        },
+      ],
+    },
     partners: {
       title: "As seen on",
       logos: [
@@ -107,54 +105,53 @@ const templateConfig: TemplateConfig = {
         // "/misc/companies/tumblr.svg",
       ],
     },
-    // howItWorks: {
-    //   id: "how-it-works",
-    //   title: "How it works",
-    //   subtitle:
-    //     "Explore our comprehensive step-by-step guide to understand how our process ensures seamless and effective results",
-    //   steps: [
-    //     {
-    //       title: "Install the App",
-    //       subtitle:
-    //         "Download and install the app on your device to get started quickly and easily.",
-    //       image: "/stock/01.webp",
-    //     },
-    //     {
-    //       title: "Create an Account",
-    //       subtitle:
-    //         "Sign up by entering your personal details and verifying your email to create a new account in just a few minutes.",
-    //       image: "/stock/02.webp",
-    //     },
-    //     {
-    //       title: "Set Up Your Profile",
-    //       subtitle:
-    //         "Complete your profile by adding necessary information and preferences to personalize your experience on the platform.",
-    //       image: "/stock/03.webp",
-    //     },
-    //     {
-    //       title: "Explore Features",
-    //       subtitle:
-    //         "Navigate through the app to discover various features and tools designed to enhance your productivity and engagement.",
-    //       image: "/stock/04.webp",
-    //     },
-    //     {
-    //       title: "Connect with Others",
-    //       subtitle:
-    //         "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
-    //       image: "/stock/05.webp",
-    //     },
-    //   ],
-    // },
+    howItWorks: {
+      id: "how-it-works",
+      title: "How it works",
+      subtitle:
+        "Explore our comprehensive step-by-step guide to understand how our process ensures seamless and effective results",
+      steps: [
+        {
+          title: "Install the App",
+          subtitle:
+            "Download and install the app on your device to get started quickly and easily.",
+          image: "/stock/01.webp",
+        },
+        {
+          title: "Create an Account",
+          subtitle:
+            "Sign up by entering your personal details and verifying your email to create a new account in just a few minutes.",
+          image: "/stock/02.webp",
+        },
+        {
+          title: "Set Up Your Profile",
+          subtitle:
+            "Complete your profile by adding necessary information and preferences to personalize your experience on the platform.",
+          image: "/stock/03.webp",
+        },
+        {
+          title: "Explore Features",
+          subtitle:
+            "Navigate through the app to discover various features and tools designed to enhance your productivity and engagement.",
+          image: "/stock/04.webp",
+        },
+        {
+          title: "Connect with Others",
+          subtitle:
+            "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
+          image: "/stock/05.webp",
+        },
+      ],
+    },
     features: {
       id: "features",
-      title: "Transform how you do things.",
-      subtitle:
-        "A pill for each moment.",
+      title: "Your Main Feature Headline",
+      subtitle: "Your Feature Subheading",
       cards: [
         {
-          title: "Task Breakdown Assistant",
-          subtitle: "Transform complex tasks into manageable steps with our AI-powered task breaker. Intelligently analyzes and breaks down your projects into clear, actionable items for better organization",
-          icon: "/3D/fire-front-color.webp"
+          title: "Feature One",
+          subtitle: "Description of your first main feature and its benefits",
+          icon: "/3D/feature1-icon.webp"
         },
         {
           title: "Time Estimation Expert",
@@ -205,64 +202,63 @@ const templateConfig: TemplateConfig = {
       ],
     },
     header: {
-      headline: "Tools for Neurodiverse Individuals",
-      subtitle:
-        "Unlock Simplicity, Embrace Productivity",
+      headline: "Your Main Headline",
+      subtitle: "Your Compelling Subheadline",
       screenshots: [
         "/screenshots/1.webp",
         "/screenshots/2.webp",
         "/screenshots/3.webp",
       ],
-      // rewards: ["App of the year \n 1st", "Product of the day"],
-      // usersDescription: "100+ people already using the app",
+      rewards: ["App of the year \n 1st", "Product of the day"],
+      usersDescription: "100+ people already using the app",
       headlineMark: [1, 3],
     },
-    // pricing: {
-    //   id: "pricing",
-    //   title: "Pricing",
-    //   subtitle: "Flexible costs to meet your budget",
-    //   actionText: "Download the app",
-    //   plans: [
-    //     {
-    //       title: "Basic Plan",
-    //       price: "$9.99/month",
-    //       rows: ["Access to basic features", "Email support", "1 GB storage"],
-    //     },
-    //     {
-    //       title: "Standard Plan",
-    //       price: "$19.99/month",
-    //       featured: true,
-    //       rows: [
-    //         "Access to all basic features",
-    //         "Priority email support",
-    //         "10 GB storage",
-    //         "Monthly webinars",
-    //       ],
-    //     },
-    //     {
-    //       title: "Premium Plan",
-    //       price: "$29.99/month",
-    //       rows: [
-    //         "Access to all features",
-    //         "24/7 support",
-    //         "100 GB storage",
-    //         "Weekly webinars",
-    //         "Exclusive content",
-    //       ],
-    //     },
-    //   ],
-    // },
+    pricing: {
+      id: "pricing",
+      title: "Pricing",
+      subtitle: "Flexible costs to meet your budget",
+      actionText: "Download the app",
+      plans: [
+        {
+          title: "Basic Plan",
+          price: "$9.99/month",
+          rows: ["Access to basic features", "Email support", "1 GB storage"],
+        },
+        {
+          title: "Standard Plan",
+          price: "$19.99/month",
+          featured: true,
+          rows: [
+            "Access to all basic features",
+            "Priority email support",
+            "10 GB storage",
+            "Monthly webinars",
+          ],
+        },
+        {
+          title: "Premium Plan",
+          price: "$29.99/month",
+          rows: [
+            "Access to all features",
+            "24/7 support",
+            "100 GB storage",
+            "Weekly webinars",
+            "Exclusive content",
+          ],
+        },
+      ],
+    },
   },
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy - Spicy Pills",
+      title: "Privacy Policy - Your App Name",
       description: "Privacy Policy",
     },
     content: `# Privacy Policy
 
-**Effective Date:** 19/11/2024
+**Effective Date:** [Insert Date]
 
-Welcome to SpicyPills, a mobile application developed by PixelTowers. We are committed to protecting your privacy and ensuring that your personal data is handled in a safe and responsible manner. This Privacy Policy outlines how we collect, use, disclose, and protect your information in compliance with the General Data Protection Regulation (GDPR).
+Welcome to [Your App Name], a mobile application developed by [Your Company]. We are committed to protecting your privacy and ensuring that your personal data is handled in a safe and responsible manner. This Privacy Policy outlines how we collect, use, disclose, and protect your information in compliance with the General Data Protection Regulation (GDPR).
 
 1.  **Information We Collect**
 - **Email Address:** We collect your email address when you create an account to use SpicyPills.
