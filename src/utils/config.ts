@@ -144,14 +144,14 @@ const templateConfig: TemplateConfig = {
     // },
     features: {
       id: "features",
-      title: "Transform Your Daily Routine",
+      title: "Transform how you do things.",
       subtitle:
-        "Elevate your lifestyle with our innovative mobile app, designed for seamless living",
+        "A pill for each moment.",
       cards: [
         {
           title: "Task Breakdown Assistant",
           subtitle: "Transform complex tasks into manageable steps with our AI-powered task breaker. Intelligently analyzes and breaks down your projects into clear, actionable items for better organization",
-          icon: "/3D/list-front-color.webp"
+          icon: "/3D/fire-front-color.webp"
         },
         {
           title: "Time Estimation Expert",
@@ -161,17 +161,17 @@ const templateConfig: TemplateConfig = {
         {
           title: "Tone Analysis Tool",
           subtitle: "Perfect your communication with our AI tone judge. Analyzes your text to ensure the right emotional impact and professional tone for your intended audience",
-          icon: "/3D/chat-front-color.webp"
+          icon: "/3D/megaphone-front-color.webp"
         },
         {
           title: "Text Formalizer",
           subtitle: "Instantly transform casual text into professional, polished content. Our AI helps maintain consistent formality levels while preserving your message's core meaning",
-          icon: "/3D/document-front-color.webp"
+          icon: "/3D/text-front-color.webp"
         },
         {
           title: "Time Management Suite",
           subtitle: "Stay focused with integrated timer and stopwatch tools. Perfect for time-boxing tasks or tracking work sessions, complete with customizable durations and audio notifications",
-          icon: "/3D/timer-front-color.webp"
+          icon: "/3D/rocket-front-color.webp"
         }
       ],
     },
